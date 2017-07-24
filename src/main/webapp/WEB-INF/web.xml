@@ -1,0 +1,86 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+ <servlet>
+		<servlet-name>hello</servlet-name>
+		<servlet-class>Register</servlet-class>  
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>hello</servlet-name>
+		<url-pattern>/Register</url-pattern>
+	</servlet-mapping>
+	<!--<welcom-file-list>
+	<welcome-file>Event_Register.html</welcome-file>
+	</welcome-file-list>-->
+</web-app>
+
+
+<!--
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_3_0.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>CRUDOperation </display-name>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+  <servlet-name>StudentController</servlet-name>
+  <servlet-class>com.crud.controller.StudentController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>StudentController</servlet-name>
+  <url-pattern>/StudentController.do</url-pattern>
+  </servlet-mapping>
+</web-app>
+<servlet>  
+<servlet-name>DBConnection1</servlet-name>  
+<servlet-class>DBConnection1</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>DBConnection1</servlet-name>  
+<url-pattern>/DBConnection1</url-pattern>  
+</servlet-mapping> 
+  
+<welcome-file-list>  
+    <welcome-file>register.html</welcome-file>  
+</welcome-file-list> 
+<servlet>  
+<servlet-name>DbConnection</servlet-name>  
+<servlet-class>DbConnection</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>DbConnection</servlet-name>  
+<url-pattern>/DbConnection</url-pattern>  
+</servlet-mapping>  
+  
+<welcome-file-list>  
+    <welcome-file>register.html</welcome-file>  
+</welcome-file-list> 
+  <servlet>
+   <servlet-name>HelloWorld</servlet-name>
+   <servlet-class>HelloWorld</servlet-class>
+</servlet>
+
+<servlet-mapping>
+   <servlet-name>HelloWorld</servlet-name>
+   <url-pattern>/HelloWorld</url-pattern>
+</servlet-mapping>
+<servlet>
+    <servlet-name>MyServlet</servlet-name>
+    <servlet-class>MyServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyServlet</servlet-name>
+    <url-pattern>/MyServlet</url-pattern>
+  </servlet-mapping>
+</web-app>-->
